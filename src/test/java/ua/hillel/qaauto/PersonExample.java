@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PersonExample {
     @Test
-    public void createNewPerson(){
+    public void createNewPerson() {
         Person person1 = new Person();
 
         person1.name = "Maria";
