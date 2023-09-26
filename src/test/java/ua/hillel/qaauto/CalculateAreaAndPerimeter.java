@@ -2,7 +2,7 @@ package ua.hillel.qaauto;
 
 import org.testng.annotations.Test;
 
-public class calculateAreaAndPerimeter {
+public class CalculateAreaAndPerimeter {
 
     @Test
     public void calculateArea() {
