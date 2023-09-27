@@ -7,21 +7,22 @@ public class Rectangle {
     double height;
 
     //конструктор для створенння прямокутника
-    Rectangle(double width, double height) {
+    void RectangleWidth(double width) {
         this.width = width;
+    }
+    void RectangleHeight(double height) {
         this.height = height;
     }
 
     //метод для обчислення периметру прямокутника
-    double calculatePerimeter(){
+    double calculatePerimeter() {
         return width * height;
     }
 
     //метод для обчислення площі прямокутника
-    double calculateArea(){
+    double calculateArea() {
         return 2 * (width + height);
     }
 
 }
-
 
